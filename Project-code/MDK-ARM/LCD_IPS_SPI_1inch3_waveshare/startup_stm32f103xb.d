@@ -1,0 +1,1 @@
+lcd_ips_spi_1inch3_waveshare\startup_stm32f103xb.o: startup_stm32f103xb.s
