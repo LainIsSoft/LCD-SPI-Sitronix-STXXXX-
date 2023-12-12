@@ -32,6 +32,10 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+//#include "DEV_Config.h"
+//#include "GUI_Paint.h"
+//#include "stdint.h"
+	
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -49,7 +53,7 @@ extern "C" {
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+//void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
@@ -61,8 +65,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define DC_Pin GPIO_PIN_8
 #define DC_GPIO_Port GPIOA
-#define Rst_Pin GPIO_PIN_9
-#define Rst_GPIO_Port GPIOA
+#define RST_Pin GPIO_PIN_9
+#define RST_GPIO_Port GPIOA
 #define PWM_LED_Pin GPIO_PIN_10
 #define PWM_LED_GPIO_Port GPIOA
 #define CS_Pin GPIO_PIN_6

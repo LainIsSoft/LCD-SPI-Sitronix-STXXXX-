@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Code\Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Code/Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -381,15 +381,60 @@
           <GroupName>Application/MDK-ARM</GroupName>
           <Files>
             <File>
-              <FileName>startup_stm32f103xb.s</FileName>
+              <FileName>startup_stm32f10x_md.s</FileName>
               <FileType>2</FileType>
-              <FilePath>startup_stm32f103xb.s</FilePath>
+              <FilePath>.\startup_stm32f10x_md.s</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Application/User/Core</GroupName>
           <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>DEV_Config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\DEV_Config.c</FilePath>
+            </File>
+            <File>
+              <FileName>font8.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\font8.c</FilePath>
+            </File>
+            <File>
+              <FileName>GUI_Paint.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\GUI_Paint.c</FilePath>
+            </File>
+            <File>
+              <FileName>image.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\image.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_1in3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\LCD_1in3.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_1inch3_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\LCD_1inch3_test.c</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\tim.c</FilePath>
+            </File>
             <File>
               <FileName>stm32f1xx_it.c</FileName>
               <FileType>1</FileType>
@@ -401,9 +446,14 @@
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Code\Src\main.c</FilePath>
+              <FilePath>..\Code\Src\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Src\spi.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -479,6 +529,11 @@
               <FileName>stm32f1xx_hal_tim_ex.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</FilePath>
             </File>
           </Files>
         </Group>

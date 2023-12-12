@@ -1,5 +1,5 @@
 lcd_ips_spi_1inch3_waveshare\main.o: ..\Code\Src\main.c
-lcd_ips_spi_1inch3_waveshare\main.o: ..\Code\Inc\main.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/main.h
 lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 lcd_ips_spi_1inch3_waveshare\main.o: ../Core/Inc/stm32f1xx_hal_conf.h
 lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
@@ -28,3 +28,17 @@ lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1
 lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/spi.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/tim.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/usart.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/gpio.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/GUI_Paint.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/DEV_Config.h
+lcd_ips_spi_1inch3_waveshare\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/Debug.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/fonts.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/image.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/LCD_1in3.h
+lcd_ips_spi_1inch3_waveshare\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd_ips_spi_1inch3_waveshare\main.o: ../Code/Inc/LCD_Test.h

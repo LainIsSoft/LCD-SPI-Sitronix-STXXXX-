@@ -27,3 +27,4 @@ lcd_ips_spi_1inch3_waveshare\stm32f1xx_hal_exti.o: ../Drivers/STM32F1xx_HAL_Driv
 lcd_ips_spi_1inch3_waveshare\stm32f1xx_hal_exti.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 lcd_ips_spi_1inch3_waveshare\stm32f1xx_hal_exti.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 lcd_ips_spi_1inch3_waveshare\stm32f1xx_hal_exti.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+lcd_ips_spi_1inch3_waveshare\stm32f1xx_hal_exti.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
